@@ -3,7 +3,6 @@
 ## simply exploration of strategy pattern
 ```mermaid
 classDiagram
-MiniDuckSimulator ..|> Duck
 Duck <|-- MallardDuck
 Duck <|-- ModelDuck
 Duck *-- FlyBehavior
