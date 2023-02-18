@@ -1,6 +1,6 @@
 # design-pattern
 
-## simply exploration of strategy pattern
+## strategy pattern
 ```mermaid
 classDiagram
 Duck <|-- MallardDuck
