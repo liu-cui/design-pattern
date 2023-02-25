@@ -2,6 +2,9 @@ package com.observerpattern;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * @author cuiliu
+ */
 @Slf4j
 public class CurrentConditionsDisplay implements Observer, DisplayElement{
     private double temperature;

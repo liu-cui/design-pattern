@@ -1,4 +1,4 @@
-package com.observerpattern;
+package com.observerinternal;
 
 /**
  * @author cuiliu
@@ -10,6 +10,5 @@ public class WeatherStationSimulator {
         weatherData.setMeasurements(19, 97, 0);
         weatherData.setMeasurements(19, 97, 7);
         weatherData.setMeasurements(19, 97, 3);
-        weatherData.setMeasurements(19, 97, 1);
-    }
+        weatherData.setMeasurements(19, 97, 1);    }
 }

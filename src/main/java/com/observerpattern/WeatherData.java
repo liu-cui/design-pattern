@@ -2,6 +2,9 @@ package com.observerpattern;
 
 import java.util.ArrayList;
 import java.util.List;
+/**
+ * @author cuiliu
+ */
 public class WeatherData implements Subject{
     private final List<Observer> observers;
     private double temperature;
