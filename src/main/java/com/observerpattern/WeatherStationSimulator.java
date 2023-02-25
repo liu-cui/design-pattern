@@ -1,4 +1,4 @@
-package com.observer;
+package com.observerpattern;
 
 public class WeatherStationSimulator {
     public static void main(String[] args) {

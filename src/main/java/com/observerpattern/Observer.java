@@ -1,4 +1,4 @@
-package com.observer;
+package com.observerpattern;
 
 public interface Observer {
     public void update(double temperature, double humidity, double pressure);
