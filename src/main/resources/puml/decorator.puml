@@ -1,0 +1,30 @@
+@startuml
+class com.decoratorpattern.Espresso {
++ double cost()
+}
+abstract class com.decoratorpattern.CondimentDecorator {
++ {abstract}String getDescription()
+}
+abstract class com.decoratorpattern.Beverage {
+~ String description
++ String getDescription()
++ {abstract}double cost()
+}
+class com.decoratorpattern.StarBuzzCoffeeSimulator {
++ {static} void main(String[])
+}
+class com.decoratorpattern.Mocha {
+~ Beverage beverage
++ double cost()
++ String getDescription()
+}
+class com.decoratorpattern.HouseBlend {
++ double cost()
+}
+
+
+com.decoratorpattern.Beverage <|-- com.decoratorpattern.Espresso
+com.decoratorpattern.Beverage <|-- com.decoratorpattern.CondimentDecorator
+com.decoratorpattern.CondimentDecorator <|-- com.decoratorpattern.Mocha
+com.decoratorpattern.Beverage <|-- com.decoratorpattern.HouseBlend
+@enduml
