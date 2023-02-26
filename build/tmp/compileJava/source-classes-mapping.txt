@@ -1,42 +1,54 @@
-com/observerpattern/DisplayElement.java
- com.observerpattern.DisplayElement
 com/observerpattern/WeatherStationSimulator.java
  com.observerpattern.WeatherStationSimulator
-com/demo/FlyNoWay.java
- com.demo.FlyNoWay
 com/demo/ModelDuck.java
  com.demo.ModelDuck
-com/demo/Squeak.java
- com.demo.Squeak
 com/demo/MallardDuck.java
  com.demo.MallardDuck
-com/observerpattern/Observer.java
- com.observerpattern.Observer
+com/decoratorpattern/CondimentDecorator.java
+ com.decoratorpattern.CondimentDecorator
 com/demo/QuackBehavior.java
  com.demo.QuackBehavior
-com/demo/FlyBehavior.java
- com.demo.FlyBehavior
 com/observerinternal/WeatherData.java
  com.observerinternal.WeatherData
-com/demo/FlyRocketPowered.java
- com.demo.FlyRocketPowered
 com/demo/MiniDuckSimulator.java
  com.demo.MiniDuckSimulator
-com/demo/Duck.java
- com.demo.Duck
-com/demo/MuteQuack.java
- com.demo.MuteQuack
 com/observerinternal/WeatherStationSimulator.java
  com.observerinternal.WeatherStationSimulator
-com/demo/Quack.java
- com.demo.Quack
 com/observerinternal/CurrentConditionsDisplay.java
  com.observerinternal.CurrentConditionsDisplay
+com/demo/Squeak.java
+ com.demo.Squeak
+com/observerpattern/CurrentConditionsDisplay.java
+ com.observerpattern.CurrentConditionsDisplay
+com/observerpattern/DisplayElement.java
+ com.observerpattern.DisplayElement
+com/demo/FlyNoWay.java
+ com.demo.FlyNoWay
 com/demo/FlyWithWings.java
  com.demo.FlyWithWings
 com/observerpattern/WeatherData.java
  com.observerpattern.WeatherData
-com/observerpattern/CurrentConditionsDisplay.java
- com.observerpattern.CurrentConditionsDisplay
+com/decoratorpattern/Beverage.java
+ com.decoratorpattern.Beverage
+com/observerpattern/Observer.java
+ com.observerpattern.Observer
+com/decoratorpattern/Espresso.java
+ com.decoratorpattern.Espresso
+com/demo/FlyBehavior.java
+ com.demo.FlyBehavior
 com/observerpattern/Subject.java
  com.observerpattern.Subject
+com/demo/FlyRocketPowered.java
+ com.demo.FlyRocketPowered
+com/demo/Quack.java
+ com.demo.Quack
+com/demo/Duck.java
+ com.demo.Duck
+com/demo/MuteQuack.java
+ com.demo.MuteQuack
+com/decoratorpattern/HouseBlend.java
+ com.decoratorpattern.HouseBlend
+com/decoratorpattern/StarBuzzCoffeeSimulator.java
+ com.decoratorpattern.StarBuzzCoffeeSimulator
+com/decoratorpattern/Mocha.java
+ com.decoratorpattern.Mocha
