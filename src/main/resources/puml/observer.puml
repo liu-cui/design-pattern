@@ -1,0 +1,42 @@
+@startuml
+interface com.observerpattern.Observer {
++ void update(double,double,double)
+}
+interface com.observerpattern.Subject {
++ void registerObserver(Observer)
++ void removeObserver(Observer)
++ void notifyObservers()
+}
+interface com.observerpattern.DisplayElement {
++ void display()
+}
+class com.observerpattern.WeatherData {
+- List<Observer> observers
+- double temperature
+- double humidity
+- double pressure
++ void registerObserver(Observer)
++ void removeObserver(Observer)
++ void notifyObservers()
++ void measurementsChanged()
++ void setMeasurements(double,double,double)
+}
+class com.observerpattern.WeatherStationSimulator {
++ {static} void main(String[])
+}
+class com.observerpattern.CurrentConditionsDisplay {
+- double temperature
+- double humidity
+- double pressure
++ Subject weatherData
++ void display()
++ void update(double,double,double)
+}
+
+
+com.observerpattern.Subject <|.. com.observerpattern.WeatherData
+com.observerpattern.Observer <|.. com.observerpattern.CurrentConditionsDisplay
+com.observerpattern.DisplayElement <|.. com.observerpattern.CurrentConditionsDisplay
+@enduml
+
+

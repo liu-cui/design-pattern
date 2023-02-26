@@ -1,0 +1,58 @@
+@startuml
+interface com.demo.FlyBehavior {
++ void fly()
+}
+class com.demo.ModelDuck {
++ <<Create>> ModelDuck()
++ void display()
+}
+class com.demo.FlyWithWings {
++ void fly()
+}
+class com.demo.MiniDuckSimulator {
++ {static} void main(String[])
+}
+class com.demo.FlyRocketPowered {
++ void fly()
+}
+class com.demo.Quack {
++ void quack()
+}
+class com.demo.FlyNoWay {
++ void fly()
+}
+class com.demo.MallardDuck {
++ <<Create>> MallardDuck()
++ void display()
+}
+interface com.demo.QuackBehavior {
++ void quack()
+}
+abstract class com.demo.Duck {
+~ FlyBehavior flyBehavior
+~ QuackBehavior quackBehavior
++ <<Create>> Duck()
++ {abstract}void display()
++ void performFly()
++ void performQuack()
++ void swim()
++ void setFlyBehavior(FlyBehavior)
++ void setQuackBehavior(QuackBehavior)
+}
+class com.demo.MuteQuack {
++ void quack()
+}
+class com.demo.Squeak {
++ void quack()
+}
+
+
+com.demo.Duck <|-- com.demo.ModelDuck
+com.demo.FlyBehavior <|.. com.demo.FlyWithWings
+com.demo.FlyBehavior <|.. com.demo.FlyRocketPowered
+com.demo.QuackBehavior <|.. com.demo.Quack
+com.demo.FlyBehavior <|.. com.demo.FlyNoWay
+com.demo.Duck <|-- com.demo.MallardDuck
+com.demo.QuackBehavior <|.. com.demo.MuteQuack
+com.demo.QuackBehavior <|.. com.demo.Squeak
+@enduml
