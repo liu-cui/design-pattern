@@ -16,4 +16,5 @@ public class StrategyContext {
     public static Strategy getStrategy(String type){
         return registerMap.get(type);
     }
+
 }
