@@ -7,3 +7,5 @@
     - SpringBeans
     - Swing
   - for better usage: implement observer pattern with yourself, not extends java built-in class
+- [x] decorator pattern Feb 26, 2023
+  - identify the aspects of the program that **vary, and then separate the changing parts from the fixed parts**
