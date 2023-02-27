@@ -1,6 +1,6 @@
 package com.observerinternal;
 
-import com.observerpattern.DisplayElement;
+import com.observer.DisplayElement;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Observable;
