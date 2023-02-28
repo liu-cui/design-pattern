@@ -1,70 +1,56 @@
-com/observer/WeatherStationSimulator.java
- com.observer.WeatherStationSimulator
-com/strategy/demo/FlyBehavior.java
- com.strategy.demo.FlyBehavior
+com/observer/WeatherData.java
+ com.observer.WeatherData
+com/observerinternal/WeatherData.java
+ com.observerinternal.WeatherData
 com/observer/DisplayElement.java
  com.observer.DisplayElement
-com/strategytest/AbstractStrategy.java
- com.strategytest.AbstractStrategy
+com/observerinternal/CurrentConditionsDisplay.java
+ com.observerinternal.CurrentConditionsDisplay
 com/observer/CurrentConditionsDisplay.java
  com.observer.CurrentConditionsDisplay
 com/observer/Subject.java
  com.observer.Subject
-com/strategy/demo/FlyRocketPowered.java
- com.strategy.demo.FlyRocketPowered
-com/strategytest/StrategyContext.java
- com.strategytest.StrategyContext
+com/decorator/Beverage.java
+ com.decorator.Beverage
+com/observer/Observer.java
+ com.observer.Observer
 com/decorator/HouseBlend.java
  com.decorator.HouseBlend
 com/decorator/CondimentDecorator.java
  com.decorator.CondimentDecorator
-com/strategytest/HotelRequest.java
- com.strategytest.HotelRequest
-com/decorator/Espresso.java
- com.decorator.Espresso
-com/observerinternal/WeatherData.java
- com.observerinternal.WeatherData
-com/strategy/demo/Duck.java
- com.strategy.demo.Duck
-com/strategytest/HotelService.java
- com.strategytest.HotelService
-com/observer/Observer.java
- com.observer.Observer
 com/decorator/Mocha.java
  com.decorator.Mocha
-com/observerinternal/WeatherStationSimulator.java
- com.observerinternal.WeatherStationSimulator
-com/strategy/demo/QuackBehavior.java
- com.strategy.demo.QuackBehavior
-com/observerinternal/CurrentConditionsDisplay.java
- com.observerinternal.CurrentConditionsDisplay
-com/strategy/demo/FlyNoWay.java
- com.strategy.demo.FlyNoWay
-com/strategy/demo/Quack.java
- com.strategy.demo.Quack
-com/decorator/Beverage.java
- com.decorator.Beverage
-com/strategytest/Strategy.java
- com.strategytest.Strategy
-com/strategytest/Hotel.java
- com.strategytest.Hotel
-com/strategy/demo/FlyWithWings.java
- com.strategy.demo.FlyWithWings
-com/decorator/StarBuzzCoffeeSimulator.java
- com.decorator.StarBuzzCoffeeSimulator
-com/strategy/demo/Squeak.java
- com.strategy.demo.Squeak
-com/observer/WeatherData.java
- com.observer.WeatherData
-com/strategy/demo/ModelDuck.java
- com.strategy.demo.ModelDuck
-com/strategy/demo/MiniDuckSimulator.java
- com.strategy.demo.MiniDuckSimulator
-com/strategy/enums/DuckEnumStrategy.java
- com.strategy.enums.DuckEnumStrategy
-com/strategy/demo/MuteQuack.java
- com.strategy.demo.MuteQuack
-com/strategy/demo/MallardDuck.java
- com.strategy.demo.MallardDuck
+com/decorator/Espresso.java
+ com.decorator.Espresso
+com/strategy/context/Context.java
+ com.strategy.context.Context
+com/observerinternal/App.java
+ com.observerinternal.App
+com/observer/App.java
+ com.observer.App
+com/strategy/context/StrategyA.java
+ com.strategy.context.StrategyA
+com/strategy/context/Strategy.java
+ com.strategy.context.Strategy
+com/strategy/context/StrategyB.java
+ com.strategy.context.StrategyB
+com/strategy/enums/StrategyEnum.java
+ com.strategy.enums.StrategyEnum
+ com.strategy.enums.StrategyEnum$1
+ com.strategy.enums.StrategyEnum$2
+com/decorator/App.java
+ com.decorator.App
+com/strategy/enums/ContextEnum.java
+ com.strategy.enums.ContextEnum
+com/strategy/factory/StrategyB.java
+ com.strategy.factory.StrategyB
+com/strategy/factory/Strategy.java
+ com.strategy.factory.Strategy
+com/strategy/factory/StrategyFactory.java
+ com.strategy.factory.StrategyFactory
+com/strategy/factory/ContextFactory.java
+ com.strategy.factory.ContextFactory
+com/strategy/factory/StrategyA.java
+ com.strategy.factory.StrategyA
 com/strategy/App.java
  com.strategy.App
