@@ -3,8 +3,8 @@ package com.decorator;
 /**
  * @author cuiliu
  */
-public class HouseBlend extends Beverage{
-    public HouseBlend(){
+public class HouseBlend extends Beverage {
+    public HouseBlend() {
         description = "House Blend Coffee";
     }
 

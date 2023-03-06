@@ -1,58 +1,57 @@
 @startuml
-interface com.demo.FlyBehavior {
-+ void fly()
-}
-class com.demo.ModelDuck {
-+ <<Create>> ModelDuck()
-+ void display()
-}
-class com.demo.FlyWithWings {
-+ void fly()
-}
-class com.demo.MiniDuckSimulator {
+class com.strategy.App {
 + {static} void main(String[])
++ {static} void executeContext()
++ {static} void executeEnum()
++ {static} void executeFactory()
 }
-class com.demo.FlyRocketPowered {
-+ void fly()
+interface com.strategy.context.Strategy {
+~ void execute()
 }
-class com.demo.Quack {
-+ void quack()
+class com.strategy.context.StrategyA {
++ void execute()
 }
-class com.demo.FlyNoWay {
-+ void fly()
+class com.strategy.factory.ContextFactory {
+- Strategy strategy
++ void setStrategy(Strategy)
++ void executeStrategy()
 }
-class com.demo.MallardDuck {
-+ <<Create>> MallardDuck()
-+ void display()
+class com.strategy.factory.StrategyA {
++ void execute()
 }
-interface com.demo.QuackBehavior {
-+ void quack()
+class com.strategy.context.StrategyB {
++ void execute()
 }
-abstract class com.demo.Duck {
-~ FlyBehavior flyBehavior
-~ QuackBehavior quackBehavior
-+ <<Create>> Duck()
-+ {abstract}void display()
-+ void performFly()
-+ void performQuack()
-+ void swim()
-+ void setFlyBehavior(FlyBehavior)
-+ void setQuackBehavior(QuackBehavior)
+interface com.strategy.factory.Strategy {
+~ void execute()
 }
-class com.demo.MuteQuack {
-+ void quack()
+class com.strategy.factory.StrategyFactory {
+- {static} StrategyFactory INSTANCE
++ {static} StrategyFactory getInstance()
++ Strategy createStrategy(String)
 }
-class com.demo.Squeak {
-+ void quack()
+class com.strategy.enums.ContextEnum {
+~ StrategyEnum strategy
++ void setStrategy(StrategyEnum)
++ void executeStrategy()
+}
+class com.strategy.context.Context {
+- Strategy strategy
++ void setStrategy(Strategy)
++ void executeStrategy()
+}
+class com.strategy.factory.StrategyB {
++ void execute()
+}
+enum com.strategy.enums.StrategyEnum {
++  STRATEGY_A
++  STRATEGY_B
++ {abstract}void execute()
 }
 
 
-com.demo.Duck <|-- com.demo.ModelDuck
-com.demo.FlyBehavior <|.. com.demo.FlyWithWings
-com.demo.FlyBehavior <|.. com.demo.FlyRocketPowered
-com.demo.QuackBehavior <|.. com.demo.Quack
-com.demo.FlyBehavior <|.. com.demo.FlyNoWay
-com.demo.Duck <|-- com.demo.MallardDuck
-com.demo.QuackBehavior <|.. com.demo.MuteQuack
-com.demo.QuackBehavior <|.. com.demo.Squeak
+com.strategy.context.Strategy <|.. com.strategy.context.StrategyA
+com.strategy.factory.Strategy <|.. com.strategy.factory.StrategyA
+com.strategy.context.Strategy <|.. com.strategy.context.StrategyB
+com.strategy.factory.Strategy <|.. com.strategy.factory.StrategyB
 @enduml

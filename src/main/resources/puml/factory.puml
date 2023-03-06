@@ -1,0 +1,55 @@
+@startuml
+abstract class com.factory.PizzaStore {
++ Pizza orderPizza(String)
+# {abstract}Pizza createPizza(String)
+}
+class com.factory.ChicagoStyleClamPizza {
+}
+class com.factory.NyStyleClamPizza {
+}
+class com.factory.ChicagoStyleCheesePizza {
+~ void cut()
+}
+class com.factory.ChicagoPizzaStore {
+# Pizza createPizza(String)
+}
+abstract class com.factory.Pizza {
+~ String name
+~ String dough
+~ String sauce
+~ List toppings
+~ void prepare()
+~ void bake()
+~ void cut()
+~ void box()
++ String getName()
+}
+class com.factory.NyPizzaStore {
+# Pizza createPizza(String)
+}
+class com.factory.ChicagoStyleVeggiePizza {
+}
+class com.factory.NyStylePepperoniPizza {
+}
+class com.factory.NyStyleVeggiePizza {
+}
+class com.factory.App {
++ {static} void main(String[])
+}
+class com.factory.NyStyleCheesePizza {
+}
+class com.factory.ChicagoStylePepperoniPizza {
+}
+
+
+com.factory.Pizza <|-- com.factory.ChicagoStyleClamPizza
+com.factory.Pizza <|-- com.factory.NyStyleClamPizza
+com.factory.Pizza <|-- com.factory.ChicagoStyleCheesePizza
+com.factory.PizzaStore <|-- com.factory.ChicagoPizzaStore
+com.factory.PizzaStore <|-- com.factory.NyPizzaStore
+com.factory.Pizza <|-- com.factory.ChicagoStyleVeggiePizza
+com.factory.Pizza <|-- com.factory.NyStylePepperoniPizza
+com.factory.Pizza <|-- com.factory.NyStyleVeggiePizza
+com.factory.Pizza <|-- com.factory.NyStyleCheesePizza
+com.factory.Pizza <|-- com.factory.ChicagoStylePepperoniPizza
+@enduml

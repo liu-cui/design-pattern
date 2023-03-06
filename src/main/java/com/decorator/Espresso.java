@@ -3,8 +3,8 @@ package com.decorator;
 /**
  * @author cuiliu
  */
-public class Espresso extends Beverage{
-    public Espresso(){
+public class Espresso extends Beverage {
+    public Espresso() {
         description = "Espresso";
     }
 
