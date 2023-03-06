@@ -9,3 +9,8 @@
   - for better usage: implement observer pattern with yourself, not extends java built-in class
 - [x] decorator pattern Feb 26, 2023
   - identify the aspects of the program that **vary, and then separate the changing parts from the fixed parts**
+- [x] factory pattern Mar 7, 22023
+- [ ] abstract pattern Mar ?, 22023
+- [ ] singleton Pattern Mar ?, 2023
+
+
