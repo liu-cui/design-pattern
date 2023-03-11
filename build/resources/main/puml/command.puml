@@ -1,0 +1,33 @@
+@startuml
+interface com.command.Command {
++ void execute()
+}
+class com.command.GarageDoor {
++ void open()
+}
+class com.command.SimpleRemoteControl {
+~ Command slot
++ void setCommand(Command)
++ void buttonWasPressed()
+}
+class com.command.LightOnCommand {
+~ Light light
++ void execute()
+}
+class com.command.GarageDoorOpenCommand {
+~ GarageDoor garageDoor
++ void execute()
+}
+class com.command.Light {
++ void on()
++ void off()
+}
+class com.command.App {
++ {static} void main(String[])
++ {static} void remoteControllerTest()
+}
+
+
+com.command.Command <|.. com.command.LightOnCommand
+com.command.Command <|.. com.command.GarageDoorOpenCommand
+@enduml

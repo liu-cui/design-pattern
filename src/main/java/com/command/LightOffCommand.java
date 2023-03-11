@@ -3,20 +3,20 @@ package com.command;
 /**
  * @author cuiliu
  */
-public class LightOnCommand implements Command{
+public class LightOffCommand implements Command{
 
     Light light;
 
-    public LightOnCommand(Light light){
+    public LightOffCommand(Light light){
         this.light = light;
     }
     @Override
     public void execute() {
-        light.on();
+        light.off();
     }
 
     @Override
     public void undo() {
-        light.off();
+        light.on();
     }
 }

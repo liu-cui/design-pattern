@@ -10,4 +10,8 @@ public class GarageDoor {
     public void open(){
         log.info("Garage Door is Open");
     }
+
+    public void close(){
+        log.info("Garage Door is Close");
+    }
 }

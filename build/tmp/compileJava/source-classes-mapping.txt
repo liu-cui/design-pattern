@@ -80,16 +80,18 @@ com/decorator/HouseBlend.java
  com.decorator.HouseBlend
 com/strategy/factory/Strategy.java
  com.strategy.factory.Strategy
+com/command/Light.java
+ com.command.Light
+com/command/GarageDoor.java
+ com.command.GarageDoor
 com/command/Command.java
  com.command.Command
 com/command/LightOnCommand.java
  com.command.LightOnCommand
-com/command/Light.java
- com.command.Light
+com/command/LightOffCommand.java
+ com.command.LightOffCommand
 com/command/App.java
  com.command.App
-com/command/GarageDoor.java
- com.command.GarageDoor
 com/command/SimpleRemoteControl.java
  com.command.SimpleRemoteControl
 com/command/GarageDoorOpenCommand.java
