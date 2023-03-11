@@ -11,6 +11,10 @@
   - identify the aspects of the program that **vary, and then separate the changing parts from the fixed parts**
 - [x] factory pattern Mar 7, 22023
 - [ ] abstract pattern Mar ?, 22023
-- [ ] singleton Pattern Mar ?, 2023
+- [ ] singleton pattern Mar ?, 2023
+- [x] command pattern Mar 11, 2023
+- [ ] adapter pattern Mar ?, 2023
+- [ ] facade pattern Mar ?, 2023
+
 
 

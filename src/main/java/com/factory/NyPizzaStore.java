@@ -8,6 +8,7 @@ package com.factory;
 public class NyPizzaStore extends PizzaStore {
     @Override
     protected Pizza createPizza(String item) {
+        /* use enum field avoid spell error*/
         if ("cheese".equals(item)) {
             return new NyStyleCheesePizza();
         } else if ("veggie".equals(item)) {
