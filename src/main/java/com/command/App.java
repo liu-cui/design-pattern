@@ -1,7 +1,5 @@
 package com.command;
 
-import javax.xml.bind.annotation.XmlElementWrapper;
-
 /**
  * @author cuiliu
  */

@@ -1,9 +1,7 @@
 com/factory/ChicagoStyleClamPizza.java
  com.factory.ChicagoStyleClamPizza
-com/factory/NyStyleCheesePizza.java
- com.factory.NyStyleCheesePizza
-com/observer/DisplayElement.java
- com.observer.DisplayElement
+com/command/LightOnCommand.java
+ com.command.LightOnCommand
 com/factory/NyStyleVeggiePizza.java
  com.factory.NyStyleVeggiePizza
 com/observer/CurrentConditionsDisplay.java
@@ -12,34 +10,22 @@ com/strategy/factory/StrategyFactory.java
  com.strategy.factory.StrategyFactory
 com/observer/Subject.java
  com.observer.Subject
-com/factory/NyStylePepperoniPizza.java
- com.factory.NyStylePepperoniPizza
-com/decorator/App.java
- com.decorator.App
 com/observerinternal/App.java
  com.observerinternal.App
-com/decorator/CondimentDecorator.java
- com.decorator.CondimentDecorator
-com/factory/ChicagoStyleCheesePizza.java
- com.factory.ChicagoStyleCheesePizza
+com/factory/StyleEnum.java
+ com.factory.StyleEnum
 com/decorator/Espresso.java
  com.decorator.Espresso
-com/observerinternal/WeatherData.java
- com.observerinternal.WeatherData
 com/factory/Pizza.java
  com.factory.Pizza
-com/observer/App.java
- com.observer.App
 com/observer/Observer.java
  com.observer.Observer
-com/strategy/factory/ContextFactory.java
- com.strategy.factory.ContextFactory
-com/decorator/Mocha.java
- com.decorator.Mocha
+com/command/App.java
+ com.command.App
 com/strategy/factory/StrategyA.java
  com.strategy.factory.StrategyA
-com/observerinternal/CurrentConditionsDisplay.java
- com.observerinternal.CurrentConditionsDisplay
+com/command/Light.java
+ com.command.Light
 com/strategy/context/StrategyB.java
  com.strategy.context.StrategyB
 com/strategy/enums/ContextEnum.java
@@ -50,8 +36,6 @@ com/strategy/enums/StrategyEnum.java
  com.strategy.enums.StrategyEnum
  com.strategy.enums.StrategyEnum$1
  com.strategy.enums.StrategyEnum$2
-com/decorator/Beverage.java
- com.decorator.Beverage
 com/factory/PizzaStore.java
  com.factory.PizzaStore
 com/strategy/context/Context.java
@@ -64,8 +48,6 @@ com/strategy/context/StrategyA.java
  com.strategy.context.StrategyA
 com/strategy/factory/StrategyB.java
  com.strategy.factory.StrategyB
-com/factory/ChicagoPizzaStore.java
- com.factory.ChicagoPizzaStore
 com/factory/ChicagoStyleVeggiePizza.java
  com.factory.ChicagoStyleVeggiePizza
 com/factory/NyPizzaStore.java
@@ -76,23 +58,43 @@ com/strategy/context/Strategy.java
  com.strategy.context.Strategy
 com/factory/ChicagoStylePepperoniPizza.java
  com.factory.ChicagoStylePepperoniPizza
+com/command/GarageDoorOpenCommand.java
+ com.command.GarageDoorOpenCommand
+com/factory/NyStyleCheesePizza.java
+ com.factory.NyStyleCheesePizza
+com/observer/DisplayElement.java
+ com.observer.DisplayElement
+com/factory/NyStylePepperoniPizza.java
+ com.factory.NyStylePepperoniPizza
+com/command/SimpleRemoteControl.java
+ com.command.SimpleRemoteControl
+com/decorator/App.java
+ com.decorator.App
+com/decorator/CondimentDecorator.java
+ com.decorator.CondimentDecorator
+com/factory/ChicagoStyleCheesePizza.java
+ com.factory.ChicagoStyleCheesePizza
+com/observerinternal/WeatherData.java
+ com.observerinternal.WeatherData
+com/observer/App.java
+ com.observer.App
+com/strategy/factory/ContextFactory.java
+ com.strategy.factory.ContextFactory
+com/decorator/Mocha.java
+ com.decorator.Mocha
+com/observerinternal/CurrentConditionsDisplay.java
+ com.observerinternal.CurrentConditionsDisplay
+com/decorator/Beverage.java
+ com.decorator.Beverage
+com/command/Command.java
+ com.command.Command
+com/factory/ChicagoPizzaStore.java
+ com.factory.ChicagoPizzaStore
+com/command/LightOffCommand.java
+ com.command.LightOffCommand
+com/command/GarageDoor.java
+ com.command.GarageDoor
 com/decorator/HouseBlend.java
  com.decorator.HouseBlend
 com/strategy/factory/Strategy.java
  com.strategy.factory.Strategy
-com/command/Light.java
- com.command.Light
-com/command/GarageDoor.java
- com.command.GarageDoor
-com/command/Command.java
- com.command.Command
-com/command/LightOnCommand.java
- com.command.LightOnCommand
-com/command/LightOffCommand.java
- com.command.LightOffCommand
-com/command/App.java
- com.command.App
-com/command/SimpleRemoteControl.java
- com.command.SimpleRemoteControl
-com/command/GarageDoorOpenCommand.java
- com.command.GarageDoorOpenCommand
