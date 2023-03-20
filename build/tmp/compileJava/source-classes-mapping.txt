@@ -20,8 +20,8 @@ com/factory/Pizza.java
  com.factory.Pizza
 com/observer/Observer.java
  com.observer.Observer
-com/command/App.java
- com.command.App
+com/strategy/factory/Strategy.java
+ com.strategy.factory.Strategy
 com/strategy/factory/StrategyA.java
  com.strategy.factory.StrategyA
 com/command/Light.java
@@ -96,5 +96,17 @@ com/command/GarageDoor.java
  com.command.GarageDoor
 com/decorator/HouseBlend.java
  com.decorator.HouseBlend
-com/strategy/factory/Strategy.java
- com.strategy.factory.Strategy
+com/adapter/MallarDuck.java
+ com.adapter.MallarDuck
+com/adapter/WildTurkey.java
+ com.adapter.WildTurkey
+com/adapter/App.java
+ com.adapter.App
+com/adapter/Duck.java
+ com.adapter.Duck
+com/adapter/TurkeyAdapter.java
+ com.adapter.TurkeyAdapter
+com/command/App.java
+ com.command.App
+com/adapter/Turkey.java
+ com.adapter.Turkey
