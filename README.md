@@ -1,6 +1,7 @@
 # Design Pattern Implement
 
 ## Implementation Timeline
+
 1. [x] Feb 18, strategy pattern
 2. [x] Feb 25, observer pattern
 3. [x] Feb 26, decorator pattern
@@ -11,6 +12,4 @@
 8. [x] Mar 20,  adapter pattern
 9. [ ] Mar 20,  facade pattern
 10. [ ] Mar 20, template pattern
-  
-
 
