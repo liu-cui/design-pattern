@@ -11,5 +11,5 @@
 7. [x] 2023/03/11, command pattern
 8. [x] 2023/03/20,  adapter pattern
 9. [ ] 2023/03/20,  facade pattern
-10.[ ] 2023/03/20, template pattern
+10. [ ] 2023/03/20, template pattern
 
