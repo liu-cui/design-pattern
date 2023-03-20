@@ -2,14 +2,14 @@
 
 ## Implementation Timeline
 
-1. [x] Feb 18, strategy pattern
-2. [x] Feb 25, observer pattern
-3. [x] Feb 26, decorator pattern
-4. [x] Mar 7,  factory pattern
-5. [ ] Mar ?,  abstract pattern
-6. [ ] Mar ?,  singleton pattern
-7. [x] Mar 11, command pattern
-8. [x] Mar 20,  adapter pattern
-9. [ ] Mar 20,  facade pattern
-10. [ ] Mar 20, template pattern
+1. [x] 2023/02/18, strategy pattern
+2. [x] 2023/02/25, observer pattern
+3. [x] 2023/02/26, decorator pattern
+4. [x] 2023/03/07,  factory pattern
+5. [ ] 2023/03/07,  abstract pattern
+6. [ ] 2023/03/07,  singleton pattern
+7. [x] 2023/03/11, command pattern
+8. [x] 2023/03/20,  adapter pattern
+9. [ ] 2023/03/20,  facade pattern
+10.[ ] 2023/03/20, template pattern
 
