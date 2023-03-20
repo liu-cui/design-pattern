@@ -1,17 +1,16 @@
 # Design Pattern Implement
 
 ## Implementation Timeline
-2023
-  - [x] Feb 18, strategy pattern
-  - [x] Feb 25, observer pattern 
-  - [x] Feb 26, decorator pattern
-  - [x] Mar 7,  factory pattern
-  - [ ] Mar ?,  abstract pattern
-  - [ ] Mar ?,  singleton pattern 
-  - [x] Mar 11, command pattern 
-  - [x] Mar 20,  adapter pattern
-  - [ ] Mar ?,  facade pattern
-  
+1. [x] Feb 18, strategy pattern
+2. [x] Feb 25, observer pattern
+3. [x] Feb 26, decorator pattern
+4. [x] Mar 7,  factory pattern
+5. [ ] Mar ?,  abstract pattern
+6. [ ] Mar ?,  singleton pattern
+7. [x] Mar 11, command pattern
+8. [x] Mar 20,  adapter pattern
+9. [ ] Mar 20,  facade pattern
+10. [ ] Mar 20, template pattern
   
 
 
