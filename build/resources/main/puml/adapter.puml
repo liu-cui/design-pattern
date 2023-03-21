@@ -1,0 +1,32 @@
+@startuml
+interface com.adapter.Duck {
++ void quack()
++ void fly()
+}
+class com.adapter.TurkeyAdapter {
+~ Turkey turkey
++ void quack()
++ void fly()
+}
+class com.adapter.App {
++ {static} void main(String[])
+- {static} void testDuck(Duck)
+}
+interface com.adapter.Turkey {
++ void gobble()
++ void fly()
+}
+class com.adapter.WildTurkey {
++ void gobble()
++ void fly()
+}
+class com.adapter.MallarDuck {
++ void quack()
++ void fly()
+}
+
+
+com.adapter.Duck <|.. com.adapter.TurkeyAdapter
+com.adapter.Turkey <|.. com.adapter.WildTurkey
+com.adapter.Duck <|.. com.adapter.MallarDuck
+@enduml

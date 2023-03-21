@@ -110,3 +110,19 @@ com/command/App.java
  com.command.App
 com/adapter/Turkey.java
  com.adapter.Turkey
+com/template/Tea.java
+ com.template.Tea
+com/template/CaffeineBeverage.java
+ com.template.CaffeineBeverage
+com/template/Coffee.java
+ com.template.Coffee
+com/template/CaffeineBeverageWithHook.java
+ com.template.CaffeineBeverageWithHook
+com/template/CoffeeWithHook.java
+ com.template.CoffeeWithHook
+com/simple/Coffee.java
+ com.simple.Coffee
+com/template/App.java
+ com.template.App
+com/simple/Tea.java
+ com.simple.Tea
