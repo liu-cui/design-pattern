@@ -10,8 +10,12 @@ com/strategy/factory/StrategyFactory.java
  com.strategy.factory.StrategyFactory
 com/observer/Subject.java
  com.observer.Subject
+com/iterator/Iterator.java
+ com.iterator.Iterator
 com/observerinternal/App.java
  com.observerinternal.App
+com/adapter/WildTurkey.java
+ com.adapter.WildTurkey
 com/factory/StyleEnum.java
  com.factory.StyleEnum
 com/decorator/Espresso.java
@@ -20,8 +24,8 @@ com/factory/Pizza.java
  com.factory.Pizza
 com/observer/Observer.java
  com.observer.Observer
-com/strategy/factory/Strategy.java
- com.strategy.factory.Strategy
+com/command/App.java
+ com.command.App
 com/strategy/factory/StrategyA.java
  com.strategy.factory.StrategyA
 com/command/Light.java
@@ -36,10 +40,26 @@ com/strategy/enums/StrategyEnum.java
  com.strategy.enums.StrategyEnum
  com.strategy.enums.StrategyEnum$1
  com.strategy.enums.StrategyEnum$2
+com/template/Tea.java
+ com.template.Tea
 com/factory/PizzaStore.java
  com.factory.PizzaStore
 com/strategy/context/Context.java
  com.strategy.context.Context
+com/template/CaffeineBeverageWithHook.java
+ com.template.CaffeineBeverageWithHook
+com/decorator/HouseBlend.java
+ com.decorator.HouseBlend
+com/iterator/DinnerMenuIterator.java
+ com.iterator.DinnerMenuIterator
+com/adapter/Duck.java
+ com.adapter.Duck
+com/adapter/App.java
+ com.adapter.App
+com/template/Coffee.java
+ com.template.Coffee
+com/adapter/Turkey.java
+ com.adapter.Turkey
 com/observer/WeatherData.java
  com.observer.WeatherData
 com/factory/App.java
@@ -48,8 +68,12 @@ com/strategy/context/StrategyA.java
  com.strategy.context.StrategyA
 com/strategy/factory/StrategyB.java
  com.strategy.factory.StrategyB
+com/iterator/DinerMenu.java
+ com.iterator.DinerMenu
 com/factory/ChicagoStyleVeggiePizza.java
  com.factory.ChicagoStyleVeggiePizza
+com/iterator/MenuItem.java
+ com.iterator.MenuItem
 com/factory/NyPizzaStore.java
  com.factory.NyPizzaStore
 com/strategy/App.java
@@ -62,8 +86,12 @@ com/command/GarageDoorOpenCommand.java
  com.command.GarageDoorOpenCommand
 com/factory/NyStyleCheesePizza.java
  com.factory.NyStyleCheesePizza
+com/template/CoffeeWithHook.java
+ com.template.CoffeeWithHook
 com/observer/DisplayElement.java
  com.observer.DisplayElement
+com/simple/Tea.java
+ com.simple.Tea
 com/factory/NyStylePepperoniPizza.java
  com.factory.NyStylePepperoniPizza
 com/command/SimpleRemoteControl.java
@@ -78,51 +106,39 @@ com/observerinternal/WeatherData.java
  com.observerinternal.WeatherData
 com/observer/App.java
  com.observer.App
+com/simple/Coffee.java
+ com.simple.Coffee
 com/strategy/factory/ContextFactory.java
  com.strategy.factory.ContextFactory
 com/decorator/Mocha.java
  com.decorator.Mocha
+com/adapter/TurkeyAdapter.java
+ com.adapter.TurkeyAdapter
 com/observerinternal/CurrentConditionsDisplay.java
  com.observerinternal.CurrentConditionsDisplay
 com/decorator/Beverage.java
  com.decorator.Beverage
 com/command/Command.java
  com.command.Command
+com/iterator/PancakeHouseMenuIterator.java
+ com.iterator.PancakeHouseMenuIterator
+com/adapter/MallarDuck.java
+ com.adapter.MallarDuck
 com/factory/ChicagoPizzaStore.java
  com.factory.ChicagoPizzaStore
+com/strategy/factory/Strategy.java
+ com.strategy.factory.Strategy
+com/template/App.java
+ com.template.App
+com/template/CaffeineBeverage.java
+ com.template.CaffeineBeverage
 com/command/LightOffCommand.java
  com.command.LightOffCommand
 com/command/GarageDoor.java
  com.command.GarageDoor
-com/decorator/HouseBlend.java
- com.decorator.HouseBlend
-com/adapter/MallarDuck.java
- com.adapter.MallarDuck
-com/adapter/WildTurkey.java
- com.adapter.WildTurkey
-com/adapter/App.java
- com.adapter.App
-com/adapter/Duck.java
- com.adapter.Duck
-com/adapter/TurkeyAdapter.java
- com.adapter.TurkeyAdapter
-com/command/App.java
- com.command.App
-com/adapter/Turkey.java
- com.adapter.Turkey
-com/template/Tea.java
- com.template.Tea
-com/template/CaffeineBeverage.java
- com.template.CaffeineBeverage
-com/template/Coffee.java
- com.template.Coffee
-com/template/CaffeineBeverageWithHook.java
- com.template.CaffeineBeverageWithHook
-com/template/CoffeeWithHook.java
- com.template.CoffeeWithHook
-com/simple/Coffee.java
- com.simple.Coffee
-com/template/App.java
- com.template.App
-com/simple/Tea.java
- com.simple.Tea
+com/iterator/App.java
+ com.iterator.App
+com/iterator/PancakeHouseMenu.java
+ com.iterator.PancakeHouseMenu
+com/iterator/Waitress.java
+ com.iterator.Waitress
